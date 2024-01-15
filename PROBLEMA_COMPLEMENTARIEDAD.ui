@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>521</width>
+    <height>592</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: rgb(77, 77, 77);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">
+background-color: rgb(42, 42, 42);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout" stretch="2,8,0,0,0,0">
+       <item>
+        <widget class="QFrame" name="frame_2">
+         <property name="styleSheet">
+          <string notr="true"> background-color: rgb(53, 53, 79);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item alignment="Qt::AlignHCenter">
+           <widget class="QLabel" name="label_7">
+            <property name="styleSheet">
+             <string notr="true">font: 87 15pt &quot;Arial 	Black&quot;;
+
+color: rgb(20, 200, 220);</string>
+            </property>
+            <property name="text">
+             <string>PROBLEMA DE COMPLEMENTARIEDAD</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="styleSheet">
+             <string notr="true">font: 87 9pt &quot;Arial 	Black&quot;;
+
+color: rgb(20, 200, 220);</string>
+            </property>
+            <property name="text">
+             <string>INGRESAR NUMERO DE FILAS y COLUMNA :</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="ingresar_c_f">
+            <property name="styleSheet">
+             <string notr="true">
+color:rgb(20,200,220);</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_com">
+            <property name="styleSheet">
+             <string notr="true">font:87 12pt &quot;Arial Black&quot;;
+background-color:#000000ff;
+color:rgb(20,200,220);
+border-radius:7px;
+border:1px solid white;</string>
+            </property>
+            <property name="text">
+             <string>ACTUALIZAR</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_3">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="9,2">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>2</number>
+          </property>
+          <property name="topMargin">
+           <number>2</number>
+          </property>
+          <property name="rightMargin">
+           <number>2</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame_5">
+            <property name="styleSheet">
+             <string notr="true"> background-color: rgb(53, 53, 79);</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <widget class="QLabel" name="label_2">
+               <property name="styleSheet">
+                <string notr="true">font:87 12pt &quot;Arial Black&quot;;
+background-color:#000000ff;
+color:rgb(20,200,220);
+border-radius:7px;
+border:1px solid white;</string>
+               </property>
+               <property name="text">
+                <string>                             MATRIZ</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QTableWidget" name="tableWidget">
+               <property name="maximumSize">
+                <size>
+                 <width>368</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">gridline-color: rgb(255, 255, 255);
+color:rgb(20,200,220);</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_4">
+            <property name="styleSheet">
+             <string notr="true"> background-color: rgb(53, 53, 79);</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <item alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="label_3">
+               <property name="styleSheet">
+                <string notr="true">font:87 12pt &quot;Arial Black&quot;;
+background-color:#000000ff;
+color:rgb(20,200,220);
+border-radius:7px;
+border:1px solid white;</string>
+               </property>
+               <property name="text">
+                <string>VECTOR</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QTableWidget" name="tableWidget_2">
+               <property name="styleSheet">
+                <string notr="true">gridline-color: rgb(255, 255, 255);
+color:rgb(20,200,220);</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_com_resolver">
+         <property name="styleSheet">
+          <string notr="true">font:87 12pt &quot;Arial Black&quot;;
+background-color:#000000ff;
+color:rgb(20,200,220);
+border-radius:7px;
+border:1px solid white;</string>
+         </property>
+         <property name="text">
+          <string>RESOLVER</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_6_co">
+         <property name="styleSheet">
+          <string notr="true">font: 87 7pt &quot;Arial 	Black&quot;;
+
+color: rgb(20, 200, 220);</string>
+         </property>
+         <property name="text">
+          <string>VALOR OPTIMO DE LA FUNCION OBJETIVO:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_5_co">
+         <property name="styleSheet">
+          <string notr="true">font: 87 7pt &quot;Arial 	Black&quot;;
+
+color: rgb(20, 200, 220);</string>
+         </property>
+         <property name="text">
+          <string>ALGUN ERROR: </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2_f">
+         <property name="styleSheet">
+          <string notr="true">font:87 12pt &quot;Arial Black&quot;;
+background-color:#000000ff;
+color:rgb(20,200,220);
+border-radius:7px;
+border:1px solid white;</string>
+         </property>
+         <property name="text">
+          <string>REGRESAR</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>521</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
